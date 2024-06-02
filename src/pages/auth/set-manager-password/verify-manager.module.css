@@ -1,0 +1,30 @@
+.set_pass_container{
+    display: flex; 
+    margin-top: 16px;
+}
+
+.form_container{
+    width: 100%;
+}
+.pass_error_message_container{
+    margin-top: 12px;
+}
+.error_message_container{
+    margin-top: 12px;
+}
+.password_input{
+   margin-top: 25px;
+}
+.set_password_text{
+    margin: 9px;
+}
+.title_input_block{
+    height: 60px;
+}
+.set_password_text{
+    color:#04B358;
+}
+.new_pass_eye,
+.match_pass_eye{
+    margin-top: 25px;
+}

@@ -1,0 +1,30 @@
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.skeleton_container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.skyleton_header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+.skyleton_table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.skyleton_talbe_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}

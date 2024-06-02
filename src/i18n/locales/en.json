@@ -1,0 +1,115 @@
+{
+    "COMMON": {
+        "USER": "user",
+        "DEACTIVATE": "Deactivate",
+        "ACTIVE": "Actived",
+        "ARCHIVE": "Archive",
+        "BACK": "Back",
+        "DELETE": "Delete",
+        "EDIT": "Edit",
+        "SUBMIT": "Submit",
+        "CREATE": "Create",
+        "NEXT":"Next",
+        "SEND": "Send"
+    },
+    "SUPPORT": {
+        "TEXTAREAMESSAGE": "Please enter your message.",
+        "MESSAGE": "MESSAGE",
+        "NAME": "NAME",
+        "DATE": "DATE",
+        "EMAIL": "EMAIL",
+        "TEXT_PLACEHOLDER": "Your Message here",
+        "ANSWER_THE_QUESTION": " Answer the question",
+        "SEARCH_TYPE_PLACE": "Type here ..."
+    },
+    "BACKVALIDATION": {
+        "err_name_is_not_empty": "Name field mustn't be empty",
+        "err_lastname_is_not_empty": "Lastname field mustn't be empty",
+        "err_email_is_email": "Email field mustn't be empty",
+        "err_phone_is_not_empty": "Phone field mustn't be empty",
+        "err_password_is_not_empty": "Password field mustn't be empty",
+        "err_phone_is_phone": "Phone number is not valid",
+        "err_publisheddate_is_date": "Date is wrong",
+        "err_manager_already_exists":"Manager already exist",
+        "err_title_is_string":"FIle format is not true, must be jpg,jpeg,png",
+        "Validation failed (expected type is jpg|jpeg|png|pdf|svg|webp|avif|gif)":"FIle format is not true, must be jpg,jpeg,png",
+        "Internal server error":"Something went wrong",
+        "err_data_is_array":"Something went wrong",
+        "err_news_not_exists":"News not found"
+
+    },
+    "PAGETITLE": {
+        "ADD_MANAGER": "Manager > Add Manager",
+        "ANSWER_QUESTION": "Support > Answer the question"
+    },
+    "MANAGER": {
+        "MANAGER": "Managers",
+        "DELETE": "Delete",
+        "EDIT": "Edit",
+        "ADD_MANAGER": "Add Manager",
+        "UPDATE_MANAGER": "Update information",
+        "CHANGE_PASSWORD": "Change password",
+        "UPDATE": "Update",
+        "PASSWORD": "Password",
+        "CURRENTPASSWORD":"current password",
+        "CONFIRM_PASS": "Confirm password",
+        "FIRST_NAME": "First Name",
+        "LAST_NAME": "Last Name",
+        "EMAIL": "Email",
+        "PHONE": "Phone",
+        "PHONE_NUMBER": "Phone number",
+        "ADD_MANAGER_TITLE": "Content Management > Add News"
+    },
+    "CONTENT": {
+        "ADD_NEWS": "Add News",
+        "CONTENT_MANAGMENT_EDIT": "Content Management > Edit"
+    },
+    "NAV_LINK_ITEMS": {
+        "DASHBOARD": "Dashboard",
+        "USER": "Users",
+        "MANAGER": "Managers",
+        "SUPPORT": "Support",
+        "CONTENT_MANAGMENT": "Content Management",
+        "TRANSFER_HISTORY": "Transfer History",
+        "LOG_OUT": "Log out"
+    },
+    "NEWS": {
+        "NEW_TITLE": "News Title",
+        "NEWS_CONTENT": "News Content",
+        "PUBLISHED": "Published",
+        "NOW": "Now",
+        "SHEDULE": "Schedule",
+        "NEW_PUBLISH_DATE": "News Published Date",
+        "CHANGE_PHOTO": "Change Photo",
+        "CHOOSE_FILE": "Choose File",
+        "SELECT_DATA":"Select Date and Time"
+        
+    },
+    "LOGIN": {
+        "LOGIN": "LOGIN",
+        "RESET-PASSWORD":"Reset password"
+    },
+    "VERIFY_PASSWORD":{
+        "SET_PASSWORD":"Set new Password"
+    },
+    "TRANSFER": {
+        "PENDING": "Pending",
+        "SUCCESS": "Success",
+        "FAILED": "Failed",
+        "REFUND": "Refund"
+    },
+    "NOT_FOUND":{
+        "PAGE_NOT_FOUND":"Page Not Found . . .",
+        "NOT_FOUND_TEXT":"We are unable to find the page you are looking for",
+        "GO_BACK_HOME":"Go Back Home",
+        "FILE_FORMAT":"FIle format is not true, must be jpg,jpeg,png"
+    },
+    "MAIN_VALIDATION":{
+        "REQUIRED_TEXT":"First name is required"
+    },
+    "POPUP":{
+        "DELETE":"Delete",
+        "CANCEL":"Cancel",
+        "TEXT":"Are you sure want to delete this item?"
+    }
+}

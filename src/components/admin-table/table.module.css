@@ -1,0 +1,434 @@
+.table_container {
+    /* margin-top: 15px; */
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    padding: 38px 20px 75px 16px;
+    min-height: 795px;
+}
+
+.page_title {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 22px;
+    /* margin-bottom: 40px; */
+}
+
+.pop_up_text {
+    font-family: Roboto !important;
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    /* padding: 25px */
+}
+
+.pop_up_footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pop_up_btn_container {
+    width: 345px;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.pop_up_btn {
+    width: 160px;
+    font-family: Inter !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+
+
+}
+
+.transfer_search_icon {
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 15px;
+    width: 12.5px;
+    height: 12.5px;
+    z-index: 999;
+}
+
+.filter_btn {
+    border-left: none;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    background-color: white;
+    border: 0.5px solid #04B358 !important;
+}
+
+.radio_btn_container {
+    display: flex;
+    flex-direction: column;
+    min-width: 133px !important;
+    height: 160px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 17px !important
+}
+
+.radio_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio_group_container {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
+
+.checkbox_items {
+    margin-bottom: 10px;
+}
+
+.row>TD {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(135, 135, 135, 1);
+}
+
+.row:hover TD {
+    color: rgba(0, 0, 0, 1);
+}
+
+.row:hover {
+    background-color: rgba(4, 179, 88, 0.08);
+    cursor: pointer;
+}
+
+.dot_btn {
+    margin-left: -15px;
+    margin-top: 2px;
+}
+
+.plusIcon {
+    font-family: Roboto;
+    font-size: 19px !important;
+    font-weight: 400 !important;
+    line-height: 22px !important;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.add_manager_btn {
+    width: 130px;
+    height: 40px !important;
+    box-sizing: unset;
+    padding: 0 !important;
+    margin: 2px 4px -6px 0;
+}
+
+.add_manager_text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin-left: 0px !important;
+
+}
+
+.table_titles>TH {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(135, 135, 135, 1);
+}
+
+MenuButton:hover {
+    background-color: none;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(4, 179, 88, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.avatar_name {
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin-right: 9px;
+    text-transform: capitalize;
+}
+
+.main_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 15px; */
+    width: 100%;
+    /* padding-right: 18px; */
+}
+
+.support_btn_block {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* margin-top: 25px;
+    padding: 6px 4px 1px 10px; */
+}
+
+.form_container {
+    width: 100%;
+}
+
+.suppor_main_container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 30px;
+}
+
+.pagination_container {
+    display: flex;
+    justify-content: end;
+}
+
+.pagination_block {
+    display: flex;
+    list-style: none;
+}
+
+.page_item {
+    margin-left: 5px;
+    cursor: pointer;
+    color: grey;
+}
+
+.page_link {
+    font-family: Roboto !important;
+    font-size: 14px;
+    font-weight: 800;
+    align-items: center;
+}
+
+.pagination_item {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 100%;
+}
+
+.active_page_item,
+.active_first_page {
+    /* background-color: #04B35814; */
+    color: #04B358;
+}
+
+.support_btn_inside_container {
+    display: flex;
+    /* width: 79px; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.support_back_btn_inside_container {
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.archive_has_border{
+    border: 1px solid rgba(4, 179, 88, 1);
+}
+
+.support_arrow_img {
+    margin-right: 8px;
+    height: 10px;
+}
+
+.support_filter_btn {
+    /* max-width: 114px; */
+    border-radius: 10px;
+    padding: 10px 15px 10px 20px;
+    background-color: white;
+}
+
+.support_filter_img {
+    width: 15px;
+    height: 15px;
+}
+
+.support_archive_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 17px;
+}
+
+.support_back_btn {
+    width: 100px !important;
+    height: 40px !important;
+    background-color: #04B358;
+}
+
+.support_archive_btn:hover {
+    border: 0.5px solid #04B358;
+
+}
+
+.support_filter_btn:hover {
+    border: 0.5px solid #04B358;
+}
+
+.support_archive_img {
+    width: 20px;
+    height: 20px;
+}
+
+.transaction_container {
+    padding-top: 30px;
+}
+
+.filter_text {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.table_header_container:last-child {
+    display: flex;
+    padding-right: 0;
+    justify-content: end;
+}
+
+.transfer_search_container {
+    border-radius: 10px 0 0 10px !important;
+    width: 250px !important;
+    height: 40px !important;
+    font-family: Roboto !important;
+    font-size: 12px !important;
+    font-weight: 400;
+    line-height: 18px;
+    color: #A0AEC0;
+    position: relative;
+    align-items: center;
+    background-color: white !important;
+    border: 0.5px solid #04B358 !important;
+}
+
+.transaction_container {
+    display: flex;
+}
+
+.table_item_action {
+    display: flex;
+    padding-right: 0;
+    justify-content: end;
+    padding-right: 30px !important;
+    height: 77px;
+}
+
+.table_info_block {
+    margin-top: 16px;
+    margin-left: -2px;
+}
+
+.filter_input {
+    width: 250px !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    font-family: Roboto !important;
+    font-size: 12px !important;
+    font-weight: 400;
+    line-height: 18px;
+    color: #A0AEC0;
+    position: relative;
+    align-items: center;
+    background-color: white !important;
+    border: 0.5px solid #04B358 !important;
+}
+
+.input_container {
+    display: flex;
+}
+
+.transaction_filter_input {
+    width: 250px !important;
+    height: 40px !important;
+    border-radius: 10px 0 0 10px !important;
+    font-family: Roboto !important;
+    font-size: 12px !important;
+    font-weight: 400;
+    line-height: 18px;
+    color: #A0AEC0;
+    position: relative;
+    align-items: center;
+    background-color: white !important;
+    border: 0.5px solid #04B358 !important;
+}
+
+.transaction_status_filter_btn {}
+
+.table_main_container {
+    padding-top: 30px;
+}
+
+.search_icon {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 11px;
+    width: 12.5px;
+    height: 12.5px;
+    z-index: 999;
+}
+
+.logo_icon{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1362px) {
+    .table_info_block {
+        display: block;
+        overflow: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .add_manager_text {
+        display: none;
+    }
+
+    .add_manager_btn {
+        display: flex;
+        justify-content: center;
+        width: 25px;
+        box-sizing: border-box
+    }
+
+    .plusIcon {
+
+        margin: 0;
+    }
+}

@@ -1,0 +1,37 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&family=Ruwudu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&family=Ruwudu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;700&family=Ruwudu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@700&family=Roboto:wght@400;700&family=Ruwudu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Ruwudu&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Ruwudu&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.css-xjxwtw{
+  background-color: #f1f1f187 !important;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 2px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #888; 
+}
+
+.active {
+  color: green;
+}
+
+.chakra-select .css-1gy4c65 > option{
+  background-color: red;
+}
+
+._language_item_o83sx_87 {
+  background-color: red;
+}
